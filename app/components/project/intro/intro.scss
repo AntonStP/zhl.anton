@@ -5,4 +5,15 @@
       @content;
     }
   }
+
+  @include option(height, 677);
+  position: relative;
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+
 }
