@@ -34,7 +34,7 @@
   src: url('SFRounded-Ultralight.ttf') format('ttf'),
   url('SFRounded-Ultralight.woff2') format('woff2'),
   url('SFRounded-Ultralight.woff') format('woff');
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }

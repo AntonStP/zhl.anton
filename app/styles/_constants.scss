@@ -10,10 +10,24 @@ $DESKTOP: 1280px;
  * font-family
  */
 $Arial: Arial, Helvetica, sans-serif;
-
+$BASE-FONT: Roboto, Helvetica, sans-serif;
+$TITLE-FONT: SF Pro Rounded, Helvetica, sans-serif;
 /**
  * color
  */
+
+$WHITE: #FFFFFF;
+
+$INFORMATION-T: #0E4C95;
+$INFORMATION-BL: #010101;
+$BLACK: #000000;
+$RED: #F04E4C;
+
+$INFORMATION-TR: #111111;
+$TAKE-PART-TEXT: #1F1F1F;
+
+$FOOTER-TEXT: rgba(255,255,255,.5);
+$BUTTON-TEXT: #212121;
 
 /**
  * z-layer

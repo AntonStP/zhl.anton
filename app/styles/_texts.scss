@@ -9,3 +9,179 @@
     font-size: 20px;
   }
 }
+
+/**
+ * Закладка
+ */
+%INTRO-MARK {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 30);
+  font-weight: 300;
+  color: $WHITE;
+  line-height: 0.6;
+}
+
+/**
+ * Заголовок
+ */
+%INTRO-TITLE {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 47, 45);
+  font-weight: 800;
+  color: $WHITE;
+  line-height: 1.3;
+}
+
+/**
+ * Цена
+ */
+%INTRO-SUM {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 30);
+  font-weight: 300;
+  color: $WHITE;
+  line-height: 1.3;
+}
+
+/**
+ * Заголовок
+ */
+%INFORMATION-TITLE {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 40, 30);
+  font-weight: 800;
+  color: $INFORMATION-T;
+  line-height: 1.25;
+}
+
+/**
+ * Определение
+ */
+%INFORMATION-TEXT {
+  font-family: $BASE-FONT;
+  @include option(font-size, 16, 16);
+  font-weight: normal;
+  color: $INFORMATION-BL;
+  line-height: 0.66;
+}
+
+/**
+ * Статистика
+ */
+%INFORMATION-STAT {
+  font-family: $BASE-FONT;
+  @include option(font-size, 16, 15);
+  font-weight: 500;
+  color: $BLACK;
+  line-height: 1.22;
+}
+
+/**
+ * Статистика цифры
+ */
+%INFORMATION-STAT {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 53.46);
+  font-weight: 800;
+  color: $RED;
+  line-height: 1.2;
+}
+
+/**
+ * Трансляция
+ */
+%INFORMATION-TRANS {
+  font-family: $BASE-FONT;
+  @include option(font-size, 12);
+  font-weight: normal;
+  color: $INFORMATION-TR;
+  line-height: 1.3;
+}
+
+/**
+ * Заголовок
+ */
+%WINNERS-TITLE {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 40);
+  font-weight: 800;
+  color: $WHITE;
+  line-height: 1.2;
+}
+
+/**
+ * Победитель, где, когда, с какого раза
+ */
+%WINNERS-TEXT {
+  font-family: $BASE-FONT;
+  @include option(font-size, 16);
+  font-weight: normal;
+  color: $WHITE;
+  line-height: 1.3;
+}
+
+/**
+ * Сумма
+ */
+%WINNERS-SUM {
+  font-family: $BASE-FONT;
+  @include option(font-size, 32);
+  font-weight: normal;
+  color: $WHITE;
+  line-height: 1.15;
+}
+
+/**
+ * Заголовок
+ */
+%TAKE-PART-TITLE {
+  font-family: $TITLE-FONT;
+  @include option(font-size, 32, 30);
+  font-weight: 800;
+  color: $RED;
+  line-height: 1.25;
+}
+
+/**
+ * Подзаголовок пункта
+ */
+%TAKE-PART-SUBTITLE {
+  font-family: $BASE-FONT;
+  @include option(font-size, 21, 20);
+  font-weight: normal;
+  color: $BLACK;
+  line-height: 1.35;
+}
+
+/**
+ * Текст пункта
+ */
+%TAKE-PART-TEXT {
+  font-family: $BASE-FONT;
+  @include option(font-size, 14, 20);
+  font-weight: normal;
+  color: $TAKE-PART-TEXT;
+  line-height: 1.35;
+}
+
+/**
+ * Текст
+ */
+%FOOTER-TEXT {
+  font-family: $BASE-FONT;
+  @include option(font-size, 7, 12);
+  font-weight: normal;
+  color: $TAKE-PART-TEXT;
+  line-height: 1.2;
+}
+
+/**
+ * Кнопка
+ */
+%BUTTON {
+  font-family: $BASE-FONT;
+  @include option(font-size, 18, 25);
+  font-weight: bold;
+  color: $BUTTON-TEXT;
+  line-height: 1;
+}
