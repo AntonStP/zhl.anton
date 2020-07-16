@@ -1,0 +1,8 @@
+.information {
+  // Константы
+  @mixin mod($mod) {
+    @include modifier("information", $mod){
+      @content;
+    }
+  }
+}

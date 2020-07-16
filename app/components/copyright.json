@@ -20,5 +20,25 @@
       "vk": "<?= $share->image['vk'] ?>",
       "tw": "<?= $share->image['tw'] ?>"
     }
+  },
+
+  "intro": {
+
+  },
+
+  "information": {
+
+  },
+
+  "winners": {
+
+  },
+
+  "takePart": {
+
+  },
+
+  "footer": {
+
   }
 }

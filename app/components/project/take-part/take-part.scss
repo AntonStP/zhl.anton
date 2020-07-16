@@ -1,0 +1,8 @@
+.take-part {
+  // Константы
+  @mixin mod($mod) {
+    @include modifier("take-part", $mod){
+      @content;
+    }
+  }
+}
