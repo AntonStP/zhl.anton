@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('roboto-medium-webfont.ttf') format('ttf'),
+  url('roboto-medium-webfont.woff2') format('woff2'),
+  url('roboto-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('roboto-regular-webfont.ttf') format('ttf'),
+  url('roboto-regular-webfont.woff2') format('woff2'),
+  url('roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('roboto-bold-webfont.ttf') format('ttf'),
+  url('roboto-bold-webfont.woff2') format('woff2'),
+  url('roboto-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('SFRounded-Ultralight.ttf') format('ttf'),
+  url('SFRounded-Ultralight.woff2') format('woff2'),
+  url('SFRounded-Ultralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url('SFRounded-Bold.ttf') format('ttf'),
+  url('SFRounded-Bold.woff2') format('woff2'),
+  url('SFRounded-Bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
