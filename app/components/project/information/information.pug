@@ -1,3 +1,48 @@
 mixin information(content, params)
   .information&attributes(attributes)
+    .information__bg
+      +pug-list(content.parallax, "information__parallax-item", params)
+    .information__content
+      .information__header
+        .information__title !{content.title}
+        .information__text
+          +pug-list(content.text, "information__text-item", params)
+      .information__statistic
+        .information__statistic-title !{content.statisticTitle}
+        .information__wrapper
+          +pug-list(content.statistic, "information__statistic-block", params)
+      .information__tv
+        +information__tv-pic(content.tv)
+        .information__tv-text
+          +pug-list(content.broadcast, "information__tv-item", params)
+      +button(content.button).information__button
     block
+
+
+mixin information__parallax-item(content,params)
+  .information__parallax-item&attributes(content.attr)&attributes(attributes)
+    picture(data-delayed-attr="src|"+content.src+".png;;"+content.src+".png;"+content.src+".webp;" data-delayed-attr-delay="400|2000" style="visibility:hidden")
+
+mixin information__text-item(content, params)
+  .information__text-item !{content.item}
+
+mixin information__statistic-block(content, params)
+  .information__statistic-block&attributes(attributes)
+    .information__statistic-text !{content.text}
+
+mixin information__tv-pic(content,params)
+  .information__tv-pic&attributes(content.attr)&attributes(attributes)
+    img(data-delayed-attr="src|"+content.src data-delayed-attr-delay="400|2000" style="visibility:hidden")
+
+mixin information__tv-item(content,params)
+  .information__tv-item !{content.item}
+
+
+
+
+
+
+mixin intro__mobile(content, params)
+  .intro__mobile&attributes(attributes)
+    picture(data-delayed-attr="src|"+content.src+".png;;"+content.src+".png;(min-width: 1024px);"+content.src+".webp;(min-width: 1024px);"+content.src+"-m.png 1x, "+content.src+"-m@2x.png 2x;(max-width: 1023px);"+content.src+"-m.webp 1x, "+content.src+"-m@2x.webp 2x;(max-width: 1023px)" data-delayed-attr-delay="300|1000" style="visibility:hidden" alt=content.alt)
+

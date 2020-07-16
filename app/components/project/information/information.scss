@@ -5,4 +5,137 @@
       @content;
     }
   }
+
+  background: #D4E8FF;
+  position: relative;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__parallax-item {
+    position: absolute;
+    img {
+      height: 100%;
+    }
+  }
+
+  &__item-1 {
+    @include option(width, 220);
+    @include option(height, 220);
+    @include option(top, 242);
+    @include option(left, -45);
+  }
+
+  &__item-2 {
+    @include option(width, 235);
+    @include option(height, 235);
+    @include option(top, 88);
+    @include option(right, -10);
+  }
+
+  &__item-3 {
+    @include option(width, 250);
+    @include option(height, 320);
+    @include option(top, 420);
+    @include option(right, -7);
+  }
+
+  &__content {
+    @include wrapper;
+    @include option(padding, 15 0 50 0);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    @include option(margin, 0 0 38);
+  }
+
+  &__title {
+    @extend %INFORMATION-TITLE;
+    @include option(width, 220);
+  }
+
+  &__text {
+    @extend %INFORMATION-TEXT;
+    @include option(width, 467);
+  }
+
+  &__text-item {
+    @include option(margin, 0 0 13);
+  }
+
+  &__statistic {
+    @include option(margin, 0 0 56 0);
+  }
+
+  &__statistic-title {
+    @extend %INFORMATION-STAT;
+    @include option(margin, 0 0 26 0);
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__statistic-block {
+    @include option(width, 191);
+    @include option(margin, 0 0 0 66);
+    position: relative;
+    box-sizing: border-box;
+    &:first-child {
+      @include option(margin, 0 42 0 0);
+    }
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      @include option(top, 0);
+      @include option(left, -20);
+      @include option(width, 1);
+      height: 100%;
+      background: #4696DB;
+      opacity: 0.6;
+    }
+  }
+
+  &__statistic-text {
+    @extend %INFORMATION-STAT;
+  }
+
+  &__num {
+    @extend %INFORMATION-NUM;
+  }
+
+  &__tv {
+    display: flex;
+  }
+
+  &__tv-pic {
+    @include option(width, 29);
+    @include option(height, 28);
+    img {
+      height: 100%;
+      display: block;
+    }
+  }
+
+  &__tv-text {
+    @include option(margin, 0 0 0 23);
+  }
+
+  &__tv-item {
+    @extend %INFORMATION-TRANS;
+    @include option(margin, 0 0 2 0);
+  }
+
+  &__button {
+    @extend %BUTTON;
+    @include option(margin, 44 auto 0);
+  }
 }

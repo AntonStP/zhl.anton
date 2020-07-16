@@ -1,3 +1,16 @@
 .button {
-  
+  @include option(width, 260);
+  @include option(height, 55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $BTN-COLOR;
+  @include option(border-radius, 38);
+  text-decoration: none;
+  transition: background .4s ease-in-out;
+  @include HOVER() {
+    &:hover {
+      background: $BTN-HOVER;
+    }
+  }
 }

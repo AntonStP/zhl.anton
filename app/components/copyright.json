@@ -27,16 +27,90 @@
   },
 
   "information": {
+    "parallax": [
+      {
+        "src": "images/information/item_1",
+        "attr": {
+          "class": "information__item-1",
+          "data-parallax": "",
+          "alt": "parallax-item"
+        }
+      },
+      {
+        "src": "images/information/item_2",
+        "attr": {
+          "class": "information__item-2",
+          "data-parallax": "",
+          "alt": "parallax-item"
+        }
+      },
+      {
+        "src": "images/information/item_3",
+        "attr": {
+          "class": "information__item-3",
+          "data-parallax": "",
+          "alt": "parallax-item"
+        }
+      }
+    ],
+    "title": "Жилищная лотерея &mdash;",
+    "text": [
+      {
+        "item": "это государственная лотерея, где разыгрываются квартиры, дома, дачные участки, денежные призы <br/>и&nbsp;многое другое."
+      },
+      {
+        "item": "Проводится с&nbsp;2012&nbsp;года. Победители по&nbsp;всей России!"
+      }
 
+    ],
+    "statisticTitle": "За все время:",
+    "statistic": [
+      {
+        "text": "Более<br/><span class='information__num'>3100</span><br/>объектов недвижимости разыграно"
+      },
+      {
+        "text": "Более<br/><span class='information__num'>64,7</span><br/>миллионов билетов выиграло"
+      },
+      {
+        "text": "Более<br/><span class='information__num'>10,8</span><br/>миллиардов рублей разыграно"
+      }
+    ],
+    "tv": {
+      "src": "images/information/calendar.svg",
+      "attr": {
+        "alt": "calendar"
+      }
+    },
+    "broadcast": [
+      {
+        "item": "Трансляции розыгрышей по&nbsp;воскресеньям, в&nbsp;8:20&nbsp;на канале НТВ."
+      },
+      {
+        "item": "Время в&nbsp;вашем регионе может отличаться от&nbsp;указанного. Следите за&nbsp;ТВ-программой."
+      }
+    ],
+    "button": {
+      "tag": "a",
+      "text": "Участвовать",
+      "attr": {
+        "href": "https://stoloto.ru",
+        "mhref": "https://m.stoloto.ru",
+        "data-analytics": "",
+        "target": "_blank"
+      }
+    }
   },
+
 
   "winners": {
 
   },
 
+
   "takePart": {
 
   },
+
 
   "footer": {
 
